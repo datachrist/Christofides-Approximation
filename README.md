@@ -8,12 +8,13 @@ The project has covered all five parts asked in the problem description:-
 4. Find a minimum-weight perfect matching M in K.
 5. Each edge in M corresponds to a shortest path in G. Add to G the paths corresponding to the edges of M in G, resulting in a multi-graph H.
 6. Find an Euler tour of H and output this tour.
+
 Methodology: 
-1 and 2-As given in description we have used Kruskal’s algorithm for finding the minimum spanning tree and then we found the nodes in the graph having odd degree.
-3-We have used Floyd warshall algorithm to find the all pair shortest path .
-4-We are finding minimum weight matching by
-1-	Feasible labeling of the vertices using min (L(u), weight(u,v)-L(v)).
-2-	Created a  Zero graph based on the condition L(u)+L(v)=w(u,v)
-3-	Found the maximum cardinality matching in the general graph.
-4-	After getting a blossom (we shrink the node for blossom) or when augmented path is not found in the graph, calculate the slack change the label of the vertices.
+1. As given in description we have used Kruskal’s algorithm for finding the minimum spanning tree and then we found the nodes in the graph having odd degree.
+2. We have used Floyd warshall algorithm to find the all pair shortest path .
+3. We are finding minimum weight matching by
+  	- Feasible labeling of the vertices using min (L(u), weight(u,v)-L(v)).
+  	- Created a  Zero graph based on the condition L(u)+L(v)=w(u,v)
+  	- Found the maximum cardinality matching in the general graph.
+  	- After getting a blossom (we shrink the node for blossom) or when augmented path is not found in the graph, calculate the slack change the label of the vertices.
 
