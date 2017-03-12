@@ -1,4 +1,4 @@
-# ChristofidesApproximation
+# Christofides-Approximation
 Christofides approximation algorithm(Implementation of TSP)
 
 The project has covered all five parts asked in the problem description:-
