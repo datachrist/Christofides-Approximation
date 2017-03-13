@@ -6,7 +6,7 @@
 /**
  * This class provides an abstract data type for a Graph.
  * 
- * @author Abhishek Gupta (axg137230)
+ * 
  *
  * @param <T>
  *            Type of data that vertices in the graph will be holding.
