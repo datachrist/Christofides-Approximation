@@ -1,7 +1,4 @@
-//Shabad Sehgal 
 
-//Group members:
-// Shabad Sehgal()
 /*************************************************************************
  *  Compilation:  javac Queue.java
  *  Execution:    java Queue < input.txt
