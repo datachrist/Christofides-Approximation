@@ -3,7 +3,7 @@
 /**
  * This class provides an abstract data type for a vertex.
  * 
- * @author Abhishek Gupta (axg137230)
+ * 
  *
  * @param <T>
  *            Type of data that vertex is holding.
