@@ -5,7 +5,7 @@
  * This class provides an abstract data type for an Edge between any two
  * vertices of any type.
  * 
- * @author Abhishek Gupta (axg137230)
+ * 
  *
  * @param <T>
  *            Type of objects between which there is an edge.
